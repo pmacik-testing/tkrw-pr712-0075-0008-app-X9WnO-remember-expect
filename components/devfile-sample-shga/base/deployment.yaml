@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-shga
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/pmacik-testing/tkrw-pr712-0075-0008-tenant/tkrw-pr712-0075-0008-app/devfile-sample-shga@sha256:5ffb9251efd963ec4cdf1229c32e5c5a6c7c4af39835bc1f0af6918beafd3533
         name: my-nodejs
         ports:
         - containerPort: 3001
